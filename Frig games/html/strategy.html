@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../imgs/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="../css/index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@mdi/font@6.9.96/css/materialdesignicons.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    <title>Frig Games</title>
+
+</head>
+<body>
+    <header class="headerprincipal">
+        <span class = "logoheader">
+            <img width="60rem" src="../imgs/logo.png" alt="logofriggames">
+            <h1>Frig Games</h1>
+         </span>
+         <nav class="itensheader">
+            <a class="itensnav" href="index.html">
+                <h2>All</h2>        
+            </a>
+            <a class="itensnav" href="pcgames.html">
+                <h2>PC</h2>
+            </a>
+            <a class="itensnav" href="browser.html">
+                <h2>Browser</h2>
+            </a>
+        </nav>
+    </header>
+
+
+    <aside>
+        <nav>
+            <ul type = "none" class="menulateral">  
+
+                <li><a class= "naveglat" href="index.html"> Home</a></li>
+            
+                <li><a class= "naveglat" href="favoritos.html" rel="next"> Favoritos</a></li>
+
+                <li><a class= "naveglat" href="mmorpg.html" rel="next"> MMORPG</a></li>
+
+                <li><a class="naveglat" id = "mobal" href="moba.html"> MOBA</a></li>
+
+                <li><a class="naveglat" id = "mobal" href="fps.html"> Shooter</a></li>
+                
+                <li><a class="naveglat" id = "mobal" href="racing.html"> Racing</a></li>
+
+                <li><a class="naveglat" id = "mobal" href="sport.html"> Sport</a></li>
+
+                <li><a class="naveglat" id = "mobal" href="social.html"> Social</a></li>
+
+                <li><a class="naveglat" id = "mobal" href="strategy.html"> Strategy</a></li>
+
+            </ul>
+        </nav>
+    </aside>
+
+
+
+    <main>
+        <div>
+            <h3 id ="gamesj">
+               Strategy Games
+            </h3>
+        </div>
+        <p id = "jogos"></p>
+    </main>
+
+    <button id = "carregarmais" onclick="chamar_api()">Carregar Mais</button>
+
+    <footer>
+        <p id = "textofooter">Descrição do projeto:
+            Desenvolvemos um site com design próprio porem com a API disponibilizada <br>
+            pela própria FreeToGame, dessa forma conseguimos dividir cada jogo por categoria.</p>
+            
+            <div class="imagens">
+                <img class = "imgfooter" src="../imgs/trello.svg" height="30px" width="30px"> &ensp;Trello &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;
+                <img class = "imgfooter" src="../imgs/mdi_github.svg" height="30px" width="30px"> &ensp;GitHub&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;
+                <img class = "imgfooter" src="../imgs/gg_figma.svg" height="30px" width="30px">&ensp;Figma
+            </div>
+    </footer>
+
+    <script src = "../js/strategy.js"></script> 
+</body>
+</html>
